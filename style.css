@@ -1,0 +1,94 @@
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap);
+
+:root{
+  --primary: #6121ff ;
+  --secondary: #333;
+  --font: 'Roboto', sans-serif;
+  --primary-text-color: #eee;
+	--page-color: #161d2e;
+	--main-text-color: #eee;
+}
+
+
+.sidenav{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	width: 60px;
+	border-radius: 3px;
+	background-color: rgba(200,200,200,0.1);
+	backdrop-filter: blur(8px);
+	transition: width 0.2s;
+	box-shadow: 0px 0px 20px 0px  rgba(0,0,0,0.3);
+	overflow: hidden;
+	padding: 0.5em;
+}
+
+.sidenav:hover{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	bottom: 10px;
+	width: 190px;
+	border-radius: 3px;
+	background-color: rgba(200,200,200,0.1);
+	backdrop-filter: blur(8px);
+}
+
+.sidenav:not(:hover)>p>a{
+	display: none;
+}
+
+.sidenav:hover>p>a{
+	display: inline-block;
+}
+
+.sidenav p{
+	white-space: nowrap;
+	width: calc(100% - 1em);
+	padding: 4px;
+	position: relative;
+	left: 5px;
+	cursor: pointer;
+	transition: background-color 0.2s;
+}
+
+.sidenav p:hover{
+	border-radius: 3px;
+	background-color: rgba(20,200,255,0.1);
+	backdrop-filter: blur(8px);
+}
+
+.sidenav p:active{
+	border-radius: 3px;
+	background-color: rgba(20,200,255,0.01);
+	backdrop-filter: blur(8px);
+}
+
+
+.sidenav p a{
+	min-width: 100%;
+	max-width: 100%;
+	position: absolute;
+	top: 22%;
+	transform: translateX(10px);
+	background-color: none !important;
+	text-overflow: ellipsis;
+}
+
+@keyframes pulsate {
+	0% {
+		opacity: 0.2;
+	}
+	75% {
+		opacity: 1;
+	}
+	100% {
+		opacity: 0.2;
+	}
+}
+
+.pulsate{
+	animation: pulsate 1.2s infinite;
+}
