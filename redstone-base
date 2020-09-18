@@ -1,0 +1,142 @@
+<html><link type="text/css" id="dark-mode" rel="stylesheet" href=""><style type="text/css" id="dark-mode-custom-style"></style><head><style>
+  @import url('/proxy/https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+  * {
+	font-family: Quicksand;
+}
+.header {
+
+padding: 15%;
+
+background: rgb(132, 31, 255);
+background: linear-gradient(0deg, rgba(13, 126, 226, 0.89) 0%, #da0dde);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#841fff", endColorstr="#9846fc", GradientType=1);!important
+height: 100hv;
+}
+.a{
+  color: white;
+  text-decoration: underline;
+}
+.a:hover,.a:active{
+  text-decoration: none;
+}
+.wrap {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button {
+  text-decoration: none;
+  min-width: 300px;
+  min-height: 60px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  letter-spacing: 1.3px;
+  font-weight: 700;
+  color: #313133;
+  background: #4FD1C5;
+background: linear-gradient(90deg, rgba(129,230,217,1) 0%, rgba(79,209,197,1) 100%);
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 12px 12px 24px rgba(79,209,197,.64);
+  transition: all 0.3s ease-in-out 0s;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+  padding: 10px;
+  }
+
+button::before {
+content: '';
+  border-radius: 1000px;
+  min-width: calc(300px + 12px);
+  min-height: calc(60px + 12px);
+  border: 6px solid #00FFCB;
+  box-shadow: 0 0 60px rgba(0,255,203,.64);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all .3s ease-in-out 0s;
+}
+
+.button:hover, .button:focus {
+  color: #313133;
+  transform: translateY(-6px);
+}
+
+button:hover::before, button:focus::before {
+  opacity: 1;
+}
+
+button::after {
+  content: '';
+  width: 30px; height: 30px;
+  border-radius: 100%;
+  border: 6px solid #00FFCB;
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: ring 1.5s infinite;
+}
+
+button:hover::after, button:focus::after {
+  animation: none;
+  display: none;
+}
+
+img{
+  width:100%;
+}
+@keyframes ring {
+  0% {
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+  }
+  100% {
+    width: 300px;
+    height: 300px;
+    opacity: 0;
+  }
+}
+.html{
+  scroll-behavior: smooth;
+}
+  </style>
+       <script src="/proxy/https://kit.fontawesome.com/7922255df2.js" crossorigin="anonymous"></script><link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-shims.min.css" media="all" rel="stylesheet"><link href="https://kit-free.fontawesome.com/releases/latest/css/free-v4-font-face.min.css" media="all" rel="stylesheet"><link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width">
+    <title>OneLight Entertainment - Redstone Base Download</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+    </head><body>
+	<center>
+		<h1 class="enterance" style="color:white;">Redstone Base World</h1>
+		<br>
+			<p class="enterance2 a" style="color:white;"></p><h3></h3><h3><a class="a" href="/proxy/http://onelightyt.repl.co/"><i class="fas fa-home" aria-hidden="true"></i> Home</a></h3><br><a href=""><iframe width="560" height="315" src="/proxy/https://www.youtube.com/embed/dr-si66zCoA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></a><br><a class="a" href="/proxy/https://www.youtube.com/channel/UCI_LMCJzcE4OICNiAl-5_dg/"><i class="fab fa-youtube" aria-hidden="true"></i> YouTube</a><br><a class="a" href="#download"><i class="fas fa-arrow-down" aria-hidden="true"></i> Skip To Download Link</a><p></p>
+			</center>
+    	
+
+<div class="content">
+<center>
+  <h1>Screenshots</h1>
+<img src="/proxy/http://onelightyt.repl.co/Screenshot.PNG?__proxy_cookies_to=https%3A%2F%2Fonelightyt.codingandmemes.repl.co%2FScreenshot.PNG"><br><hr>
+<img src="/proxy/http://onelightyt.repl.co/screenshot2.PNG?__proxy_cookies_to=https%3A%2F%2Fonelightyt.codingandmemes.repl.co%2Fscreenshot2.PNG"><br><hr>
+<img src="/proxy/http://onelightyt.repl.co/screenshot3.PNG?__proxy_cookies_to=https%3A%2F%2Fonelightyt.codingandmemes.repl.co%2Fscreenshot3.PNG"><br><hr>
+<img src="/proxy/http://onelightyt.repl.co/Screenshot4.PNG?__proxy_cookies_to=https%3A%2F%2Fonelightyt.codingandmemes.repl.co%2FScreenshot4.PNG"><br><hr>
+<img src="/proxy/http://onelightyt.repl.co/screenshot%205.PNG?__proxy_cookies_to=https%3A%2F%2Fonelightyt.codingandmemes.repl.co%2Fscreenshot%25205.PNG"><br><hr>
+<img src="/proxy/http://onelightyt.repl.co/screenshot6.PNG?__proxy_cookies_to=https%3A%2F%2Fonelightyt.codingandmemes.repl.co%2Fscreenshot6.PNG"><br><hr>
+<img src="/proxy/http://onelightyt.repl.co/screenshot7.PNG?__proxy_cookies_to=https%3A%2F%2Fonelightyt.codingandmemes.repl.co%2Fscreenshot7.PNG"><br><hr>
+<img src="/proxy/http://onelightyt.repl.co/screenshot8.PNG?__proxy_cookies_to=https%3A%2F%2Fonelightyt.codingandmemes.repl.co%2Fscreenshot8.PNG"><br>
+<h1 id="download">Download</h1>
+
+<div class="wrap">
+  <a class="button" href="http://onelightyt.repl.co/%C2%A7k%C2%A74f%C2%A7rRedstone%20Base%C2%A7k%C2%A74d.mcworld">Download</a>
+</div>
+</center>
+  </div></body></html>
