@@ -7,16 +7,39 @@
 		<link rel="stylesheet preconnect prefetch" type="text/css" href="https://lantern.polyopendev.tk/proxy/https:/flightlib.foxglovedev.repl.co/library/raw/main.css"></link>
 		<script src="https://unpkg.com/feather-icons"></script>
     <link href="style.css" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script>
+	onload = ()=>{
+		$(document).ready(function(){
+			$(document).ajaxStart(function(){
+				$("#load").css("display", "block");
+			});
+
+			$(document).ajaxComplete(function(){
+				$("#load").css("display", "none");
+			});
+			$("#library").click(function(){
+				$("#content").load("library.html");
+			});
+			$("#downloads").click(function(){
+				$("#content").load("downloads.html");
+			});
+			$("#home").click(function(){
+				$("#content").load("home.html");
+			});
+			$("#content").load("home.html");
+		});
+	}
+	</script>
   </head>
   <body>
 		<div class="sidenav">
-			<p><i data-feather="alert-circle"></i><a>About</a></p>
-			<p><i data-feather="file"></i><a>Downloads</a></p>
-
-			<p onclick="window.location = 'https://twitch.tv/onelightentertainment'"><i data-feather="twitch><a>Twitchp>
+			<p id="home"><i data-feather="home"></i><a>Home</a></p>
+			<p id="library"><i data-feather="book-open"></i><a>Library</a></p>
+			<p id="downloads"><i data-feather="file"></i><a>Downloads</a></p>
 			<p onclick="window.location = 'https://www.youtube.com/channel/UCI_LMCJzcE4OICNiAl-5_dg'"><i data-feather="youtube"></i><a>Channel</a></p>
 			<br>
-			<p onclick="window.location = 'https://twitch.tv/onelightentertainment'"><i data-feather="razer"></i>Razer TipStream</p>
+			<p><i data-feather="coffee"></i><a>Buy us a coffee</a></p>
 			<p><i data-feather="message-square"></i><a>Contact Us</a></p>
 
 			</div>
